@@ -1,1 +1,1 @@
-# angular-projects
+# List of Angular Projects
