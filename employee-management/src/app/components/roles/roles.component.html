@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-3">
+        <p>{{firstName}}</p>
+    </div>
+    <div class="col-3">
+        <p>{{lastName}}</p>
+    </div>
+    <div class="col-3">
+        <p>{{age}}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <input type="text" [value]="firstName">
+    </div>
+    <div class="col-3">
+        <input type="text" [(ngModel)]="lastName">
+    </div>
+    <div class="col-3">
+        <select [(ngModel)]="age">
+            <option value="aa">AA</option>
+            <option value="BB">abc</option>
+        </select>
+    </div>
+</div>
